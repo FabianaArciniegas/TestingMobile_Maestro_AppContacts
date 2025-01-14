@@ -1,0 +1,22 @@
+appId: com.samsung.android.dialer
+---
+- launchApp
+- tapOn:
+    id: "com.samsung.android.dialer:id/menu_create_contact"
+- tapOn: "Nombre"
+- inputRandomPersonName
+- tapOn: "Teléfono"
+- tapOn:
+    id: "com.samsung.android.app.contacts:id/flow"
+- inputRandomNumber:
+    length: 10
+- back
+- tapOn: "Correo"
+- inputRandomEmail
+- tapOn: "Guardar"
+- tapOn: "Más"
+- tapOn: "Eliminar"
+- tapOn: "Mover a Papelera"
+
+
+    
